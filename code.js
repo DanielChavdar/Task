@@ -15,4 +15,3 @@ function drawImage(canvasName, filename, brightness) {
         brightness
     } % );
 };
-
