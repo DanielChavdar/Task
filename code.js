@@ -11,7 +11,5 @@ function drawImage(canvasName, filename, brightness) {
         ctx.drawImage(pic, 0, 0);
     };
 
-    canvas.style.filter = brightness($ {
-        brightness
-    } % );
+    canvas.style.filter = `brightness(${brightness}%)`;
 };
